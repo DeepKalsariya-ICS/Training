@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Page</title>
+</head>
+<body>
+    <h1>Welcome to my flask app</h1>
+    <br>
+    <br>
+    <label>New User</label>
+    <a href = "{{ url_for('register') }}"><button>Register</button></a> 
+    <br>
+    <br>    
+    <label>Already Registered</label>
+    <a href = "{{ url_for('login') }}"><button>Login</button></a> 
+    <br>
+    <br>
+</body>
+</html>

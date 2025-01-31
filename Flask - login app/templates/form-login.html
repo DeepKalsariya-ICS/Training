@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+
+    <form method="post">
+        <h1>Validate your credentials to login.</h1>
+        <label> Enter your name</label>
+        <input type="text" name="user_name" placeholder="Enter your name" required>
+        <br>
+        <br>
+
+        <label>Enter your Password</label>
+        <input type="password" name="user_pw" placeholder="Enter your password" required>
+        <br>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <a href = "{{ url_for('home') }}"> </a>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+    <form method = 'POST'>
+        <label> Enter your name</label>
+        <input type="text" name="user_name" placeholder="Enter your name" required>
+        <br>
+        <br>
+
+        <label>Enter your email</label>
+        <input type="email" name="user_email" placeholder="Enter your email" required>
+        <br>
+        <br>
+
+        <label>Enter your Password</label>
+        <input type="password" name="user_pw" placeholder="Enter your password" required>
+        <br>
+        <br>
+
+        <!-- <label>Enter your Birthdate</label>
+        <input type="date" name="user_bd" placeholder="Enter your birthdate">
+        <br>
+        <br> -->
+
+        <!-- <a href = "{{ url_for('home') }}"><button type="submit">Submit</button> </a> -->
+        <button type="submit">Submit</button> 
+    </form>
+    <br>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+
+</body>
+</html>
